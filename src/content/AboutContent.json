@@ -1,15 +1,15 @@
 {
   "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "text": "For media consumers who are tired of being bombarded with false claims and targeted advertising, our community-based approach ensures that every interaction is validated, creating a safe and reliable space for media consumption and social interaction. Unlike current social media models that prioritize popularity and profit over truth and authenticity, our app fosters an environment where users can confidently interact with trusted sources and data they understand.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Why AITC?",
+      "content": "Our app is a safe space for users to share their opinions and experiences without fear of being attacked or censored.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "How will the information by stored?",
+      "content": "AITC interacts with relays run by nostr which is a leading technology for security and privacy. The information is stored on the blockchain and is encrypted. The information is only accessible by the user and the relays.",
       "icon": "notes.svg"
     }
   ]

@@ -1,6 +1,6 @@
 {
-    "title": "Introduce your product quickly & effectively",
-    "text": "Landy comes with multi-lingual support, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in developing web applications using React.js.",
+    "title": "What is Nostr?",
+    "text": "Nostr is a new social network that is designed to be open, censorship-resistant, and not rely on a central server. Instead, it uses cryptography to make sure that posts are secure and not tampered with. To use Nostr, users run a client and can publish posts by signing them with their key and sending them to multiple relays. These relays are simple servers that forward posts to others, and anyone can run them. Nostr solves problems with other social networks such as Twitter, Mastodon, and SSB, which require everyone to run their own server. It also does not have ads, prevent addiction, and does not ban users or shadowban people. Finally, it allows users to publish to other relays and automatically adds server recommendations to the client's list of relays, so users are not affected by server closures or bans.",
     "button": "Get started"
   }
   
