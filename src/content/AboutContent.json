@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "For media consumers who are tired of being bombarded with false claims and targeted advertising, our community-based approach ensures that every interaction is validated, creating a safe and reliable space for media consumption and social interaction. Unlike current social media models that prioritize popularity and profit over truth and authenticity, our app fosters an environment where users can confidently interact with trusted sources and data they understand.",
+  "title": "Authentic Empowerment",
+  "text": "Are you tired of being overwhelmed with false claims and fake information as a media consumer? We have a solution. Our community-based approach ensures that every interaction is validated, creating a safe and dependable platform for media consumption and social interaction. Unlike existing social media models that prioritize popularity and profit at the expense of truth and authenticity, AITC creates an environment where users can confidently engage with the most trusted and reliable sources of data.",
   "section": [
     {
       "title": "Why AITC?",
-      "content": "Our app is a safe space for users to share their opinions and experiences without fear of being attacked or censored.",
+      "content": "AI bots are dominating the internet. Trust in online content is diminishing fast.  AITC is built on the trust of real humans. Say goodbye to fake accounts and hello to authenticity. With our social media app, user accounts are scored based on their trustworthiness. The more genuine and real they are, the higher their level of trust, the wider the content reach. Who decides the trust level? The trusted people in your network.",
       "icon": "notes.svg"
     },
     {
       "title": "How will the information by stored?",
-      "content": "AITC interacts with relays run by nostr which is a leading technology for security and privacy. The information is stored on the blockchain and is encrypted. The information is only accessible by the user and the relays.",
+      "content": "AITC interacts with relays run by nostr which is a leading technology for security and privacy. The information is stored on the blockchain and is encrypted to be fetched by the clients.",
       "icon": "notes.svg"
     }
   ]
