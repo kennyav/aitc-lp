@@ -40,7 +40,7 @@ const Footer = ({ t }: any) => {
         key={src}
         aria-label={src}
       >
-        <SvgIcon src={src} width="25px" height="25px" />
+        <SvgIcon src={src} width="100px" height="100px" />
       </a>
     );
   };
@@ -56,7 +56,7 @@ const Footer = ({ t }: any) => {
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:"> 
+              <a href="mailto:">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
             </Col>
@@ -85,11 +85,8 @@ const Footer = ({ t }: any) => {
               <Language>{t("Check Out Our Web App")}</Language>
               <SocialLink
                 href="https://aitc.vercel.app"
-                src="webapp.svg"
+                src="logo.svg"
               />
-              {/* <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para> */}
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
@@ -129,7 +126,7 @@ const Footer = ({ t }: any) => {
             </Col>
           </Row>
         </Container>
-      </FooterSection>
+      </FooterSection >
       <Extra>
         <Container border={true}>
           <Row
