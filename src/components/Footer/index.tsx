@@ -63,7 +63,7 @@ const Footer = ({ t }: any) => {
           <Row justify="space-between">
             <Col lg={6} md={6} sm={12} xs={12}>
               <Language>{t("Contact")}</Language>
-              <Large to="/">{t("(540) 753-1288")}</Large>
+                <a href="tel:+5407531288">{t("(540) 753-1288")}</a>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Title>{t("About")}</Title>
