@@ -20,6 +20,8 @@ import {
   LanguageSwitch,
   LanguageSwitchContainer,
 } from "./styles";
+import { useState } from "react";
+
 
 interface SocialLinkProps {
   href: string;
@@ -27,8 +29,17 @@ interface SocialLinkProps {
 }
 
 const Footer = ({ t }: any) => {
+  const [visible, setVisibility] = useState(false);
   const handleChange = (language: string) => {
     i18n.changeLanguage(language);
+  };
+
+  const scrollTo = (id: string) => {
+    const element = document.getElementById(id) as HTMLDivElement;
+    element.scrollIntoView({
+      behavior: "smooth",
+    });
+    setVisibility(false);
   };
 
   const SocialLink = ({ href, src }: SocialLinkProps) => {
@@ -50,26 +61,17 @@ const Footer = ({ t }: any) => {
       <FooterSection>
         <Container>
           <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
+            <Col lg={6} md={6} sm={12} xs={12}>
               <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
-              <Para>
-                {t(`Do you have any question? Feel free to reach out.`)}
-              </Para>
-              <a href="mailto:">
-                <Chat>{t(`Let's Chat`)}</Chat>
-              </a>
-            </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Policy")}</Title>
-              <Large to="/" left="true">
-                {t("Application Security")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Software Principles")}
-              </Large>
+              <Large to="/">{t("(540) 753-1288")}</Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
+              <Title>{t("About")}</Title>
+              <Large to="/" left="true" onClick={() => scrollTo("about")}>
+                {t("About AITC")}
+              </Large>
+            </Col>
+            {/* <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
               <Large left="true" to="/">
                 {t("Support Center")}
@@ -102,7 +104,7 @@ const Footer = ({ t }: any) => {
               <Large left="true" to="/">
                 {t("Careers & Culture")}
               </Large>
-            </Col>
+            </Col>*/}
             <Col lg={6} md={6} sm={12} xs={12}>
               <Label htmlFor="select-lang">{t("Language")}</Label>
               <LanguageSwitchContainer>
