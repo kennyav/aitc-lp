@@ -62,6 +62,10 @@ const Footer = ({ t }: any) => {
         <Container>
           <Row justify="space-between">
             <Col lg={6} md={6} sm={12} xs={12}>
+              <Language>{t("AITC")}</Language>
+                <a href="https://aitc.vercel.app">{t("Our website")}</a>
+            </Col>
+            <Col lg={6} md={6} sm={12} xs={12}>
               <Language>{t("Contact")}</Language>
                 <a href="tel:+5407531288">{t("(540) 753-1288")}</a>
             </Col>
